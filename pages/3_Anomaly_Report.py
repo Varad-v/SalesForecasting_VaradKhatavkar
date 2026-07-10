@@ -3,7 +3,6 @@ import pandas as pd
 import plotly.express as px
 from sklearn.ensemble import IsolationForest
 
-st.set_page_config(page_title="Anomaly Report", layout="wide")
 
 st.title("🚨 Sales Anomaly Report")
 st.markdown("Isolation Forest identifies unusual sales observations.")
