@@ -5,7 +5,6 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 
-st.set_page_config(page_title="Demand Segments", layout="wide")
 
 st.title("📦 Demand Segmentation Dashboard")
 st.markdown("K-Means clustering identifies products with similar demand patterns.")
