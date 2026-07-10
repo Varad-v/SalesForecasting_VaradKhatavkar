@@ -4,7 +4,6 @@ import plotly.express as px
 from sklearn.linear_model import LinearRegression
 import numpy as np
 
-st.set_page_config(page_title="Forecast Explorer", layout="wide")
 
 st.title("📈 Forecast Explorer")
 st.markdown("Sales Forecast using Linear Regression Trend Projection")
